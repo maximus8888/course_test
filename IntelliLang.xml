@@ -1,0 +1,17 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="SQL" injector-id="java">
+      <display-name>Statement (java.sql)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("addBatch").withParameters("java.lang.String").definedInClass("java.sql.Statement"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("execute").withParameters("java.lang.String").definedInClass("java.sql.Statement"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("execute").withParameters("java.lang.String", "int").definedInClass("java.sql.Statement"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("execute").withParameters("java.lang.String", "int[]").definedInClass("java.sql.Statement"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("execute").withParameters("java.lang.String", "java.lang.String[]").definedInClass("java.sql.Statement"))]]></place>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("executeQuery").withParameters("java.lang.String").definedInClass("java.sql.Statement"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("executeUpdate").withParameters("java.lang.String").definedInClass("java.sql.Statement"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("executeUpdate").withParameters("java.lang.String", "int").definedInClass("java.sql.Statement"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("executeUpdate").withParameters("java.lang.String", "int[]").definedInClass("java.sql.Statement"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("executeUpdate").withParameters("java.lang.String", "java.lang.String[]").definedInClass("java.sql.Statement"))]]></place>
+    </injection>
+  </component>
+</application>
