@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="newtestsql" type="PLAIN_TEXT" />
+      <mapping ext="jrtc" type="PLAIN_TEXT" />
       <mapping pattern="sqlfile" type="SQL" />
     </extensionMap>
   </component>
