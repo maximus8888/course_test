@@ -4,8 +4,6 @@
       <mapping pattern="newtestsql" type="PLAIN_TEXT" />
       <mapping ext="proerties" type="PLAIN_TEXT" />
       <mapping ext="jrtc" type="PLAIN_TEXT" />
-      <mapping ext="properties" type="PLAIN_TEXT" />
-      <removed_mapping ext="properties" type="Properties" />
       <mapping pattern="sqlfile" type="SQL" />
     </extensionMap>
   </component>
